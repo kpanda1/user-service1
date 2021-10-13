@@ -20,7 +20,7 @@ public interface UserService
 	 * To add user into User database
 	 * 
 	 * @param user
-	 * @throws UserServiceException
+	 * @throws UserServiceException for any error while adding user
 	 */
 	void addUser(User user) throws UserServiceException;
 	
@@ -28,7 +28,7 @@ public interface UserService
 	 * edit existing user
 	 * 
 	 * @param user
-	 * @throws UserServiceException
+	 * @throws UserServiceException for any error while editing user
 	 */
 	void editUser(User user) throws UserServiceException;
 

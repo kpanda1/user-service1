@@ -39,7 +39,7 @@ public class UserController {
 	}
 
 	/**
-	 * Edit user endpoint
+	 * Edit user data
 	 * 
 	 * @param user
 	 * @throws UserServiceException
